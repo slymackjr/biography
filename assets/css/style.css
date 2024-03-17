@@ -259,8 +259,9 @@ h6 {
   padding: 5px;
 }
 
-.mobile-nav-toggle i {
-  color: #45505b;
+
+.mobile-nav-toggle {
+  color: #353636;
 }
 
 .mobile-nav-active {
@@ -592,7 +593,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: transparent;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -605,7 +606,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #3fd412;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }

@@ -57,7 +57,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Jofrey B Nyamasheki</h1>
-      <p>I'm <span class="typed" data-typed-items="Software Engineer, Software Developer, Freelancer, Team Leader, Team Player"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Mobile Developer, Frontend Developer, Backend Developer, , UI/UX Designer, Team Leader, Team Player, Supporting Character, skilled in software Engineering"></span></p>
       <div class="social-links">
         <a href="https://twitter.com/slymackjr?t=kgkwOFe9Rv8mqo90vQV1ig&s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://github.com/slymackjr" class="github"><i class="bx bxl-github"></i></a>
@@ -90,7 +90,10 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I'm a graduate specifically specialized in Freelance Software Engineer and Developer,I'm also a good team leader and team team player who works well with others.</p>
+          <p>"Experienced in software engineering, I specialize in mobile, frontend, and backend development,
+             with additional proficiency in website design. In addition to leading teams, I am highly effective
+              as a team player and supportive contributor. Committed to delivering innovative solutions,
+               I thrive in collaborative environments, driving project success.</p>
         </div>
 
         <div class="row">
@@ -98,16 +101,18 @@
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="Profile image">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Developer &amp; Web Developer.</h3>
+            <h3>Full-Stack Developer &amp; UI/UX Designer.</h3>
             <p class="fst-italic">
-              I specialized Software Developer and web Developer whose good in languages like Java, C++ and famliar with the bootstrap
-              framework in designing good looking websites.
+              Hey there! I'm an experienced software engineer, focusing on mobile, frontend, and backend development,
+               with a knack for website design. I'm well-versed in React.js, Bootstrap, JavaScript, Node.js, Laravel,
+                and Flutter (Java/Dart). Oh, and let's not forget my SQL skills for managing databases efficiently.
+                 When it comes to design, I love using Figma for seamless collaboration. Let's build something amazing together!
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span id="birthdate">11 July 1999</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website Sample:</strong> <span>https://slymackjr.github.io/my-website/</span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website Sample:</strong> <span>https://slymackjr.github.io/my-website/</span></li> -->
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+255 767 413 968</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Dar es Salaam, Tanzania</span></li>
                 </ul>
@@ -115,33 +120,36 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></span></li>
-                   <script>
-        // Get the birthdate element
-        const birthdateElement = document.getElementById("birthdate");
+                  <script>
+                      // Wrap your JavaScript code in an event listener for DOMContentLoaded
+                      document.addEventListener('DOMContentLoaded', function() {
+                          // Get the birthdate element
+                          const birthdateElement = document.getElementById("birthdate");
 
-        // Parse the birthdate string into a Date object
-        const birthdate = new Date(birthdateElement.textContent);
+                          // Parse the birthdate string into a Date object
+                          const birthdate = new Date(birthdateElement.textContent);
 
-        // Calculate the current date
-        const currentDate = new Date();
+                          // Calculate the current date
+                          const currentDate = new Date();
 
-        // Calculate the age
-        const age = currentDate.getFullYear() - birthdate.getFullYear();
+                          // Calculate the age
+                          let age = currentDate.getFullYear() - birthdate.getFullYear();
 
-        // Check if the birthday for this year has already occurred
-        if (
-            currentDate.getMonth() < birthdate.getMonth() ||
-            (currentDate.getMonth() === birthdate.getMonth() &&
-                currentDate.getDate() < birthdate.getDate())
-        ) {
-            // Subtract 1 from the age if the birthday hasn't occurred yet this year
-            age--;
-        }
+                          // Check if the birthday for this year has already occurred
+                          if (
+                              currentDate.getMonth() < birthdate.getMonth() ||
+                              (currentDate.getMonth() === birthdate.getMonth() &&
+                                  currentDate.getDate() < birthdate.getDate())
+                          ) {
+                              // Subtract 1 from the age if the birthday hasn't occurred yet this year
+                              age--;
+                          }
 
-        // Display the age
-        const ageElement = document.getElementById("age");
-        ageElement.textContent = age;
-    </script>
+                          // Display the age
+                          const ageElement = document.getElementById("age");
+                          ageElement.textContent = age;
+                      });
+                  </script>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>jbnyamasheki@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
@@ -149,8 +157,10 @@
               </div>
             </div>
             <p>
-              I'm currently a graduate with alot of time in my hands, I have residence near-by Goba road, my bus stop is Kayuni.
-              I currently working on my ideas as a project(s) to be presented live to an audiance. 
+              I come equipped with extensive experience and skill in software engineering, spanning mobile, frontend,
+               and backend development, coupled with a proficiency in website design. Backed by a solid understanding
+                of cutting-edge technologies and a dedication to fostering innovation, I'm prepared to collaborate and
+                 guide projects towards triumph. Let's begin this journey united!
             </p>
           </div>
         </div>
@@ -164,8 +174,9 @@
 
         <div class="section-title">
           <h2>Facts</h2>
-          <p>I'm muticulous and very thorough about my work, I love my Computer since I get to work on even the slites ideas I get immediately
-            on it and get the results right away without any delay or compromise.
+          <p>I am meticulous and exceptionally detail-oriented in my work. 
+            My fervor for technological innovation and software excellence drives me
+             to promptly dive into even the slightest ideas, producing results promptly and without compromise.
           </p>
         </div>
 
@@ -182,7 +193,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
               <p>Projects</p>
             </div>
           </div>
@@ -190,7 +201,7 @@
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="2572" data-purecounter-duration="1" class="purecounter"></span>
               <p>Hours Of Support</p>
             </div>
           </div>
@@ -214,9 +225,12 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>I'm a Software Engineer who knows programming languages like PHP, Java and C++ for Software development
-            and I also coding using HTML and CSS for Web Applications Development. I'm also a license driver and I speak two languages which I'm fluent 
-            in both English and Swahili. 
+          <p>I'm a versatile Software Engineer proficient in HTML, CSS, JavaScript,
+             and the Bootstrap CSS framework for crafting dynamic web applications.
+              My expertise extends to React.js and Node.js for frontend and backend development,
+               while I also excel in Java, Laravel, Flutter, Dart, and SQL for database management.
+                With a strong background in UI/UX design, I bring a holistic approach to software development,
+                 ensuring seamless user experiences. Additionally, I am fluent in both English and Swahili.
           </p>
         </div>
 
@@ -225,16 +239,16 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">HTML <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">70%</i></span>
+              <span class="skill">CSS <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -246,9 +260,16 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Driver <i class="val">75%</i></span>
+              <span class="skill">ReactJS <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">NodeJS <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -257,7 +278,21 @@
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
+              <span class="skill">Flutter <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Dart <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">UI\UX Design <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -322,7 +357,7 @@
                 But recently Computer Science was among the added courses.
               </p>
             </div>
-            <div class="resume-item">
+            <!-- <div class="resume-item">
               <h4>Advanced Certificate of Secondary Education Examination (ACSEE)</h4>
               <h5>2019 - 2021</h5>
               <p><em>Kibiti Boys High School, Pwani</em></p>
@@ -333,7 +368,7 @@
               <h5>2014 - 2017</h5>
               <p><em>Libermann Boys' Secondary School, Dar es Salaam</em></p>
               <p>Libermann Boys' Secondary School is a School offering Ordinary level education with various Streams like Science, Business and art Stream.</p>
-            </div>
+            </div> -->
           </div>
           <!--<div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
@@ -365,22 +400,24 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= 
+    <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Welcome to my portfolio! Here, you'll find a showcase of projects that I've developed using my skills as a software engineer.
+             Leveraging my expertise in various technologies such as HTML, CSS, JavaScript, React.js, Node.js, Laravel,
+              and more, I've crafted a diverse range of projects that demonstrate my capabilities in frontend and backend development, as well as website design.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Web App & System</li>
+              <li data-filter=".filter-card">Templates</li>
+              <!-- <li data-filter=".filter-web">Web Design</li> -->
             </ul>
           </div>
         </div>
@@ -389,26 +426,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Agriculture Database System</h4>
+                <p>Web App & System</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Agriculture Database System"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -417,41 +440,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Library Management System</h4>
+                <p>Web App & system</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Library Management System"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details2.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -459,13 +454,41 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Blood Donation</h4>
+                <p>Web App & Sytem</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Blood Donation"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details3.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Student Timetable</h4>
+                <p>Web App & System</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Student Timetable"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details4.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mobile Shopping Plaza</h4>
+                <p>Web App & System</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mobile Shopping Plaza"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details5.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -473,13 +496,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Blood Donation Template</h4>
+                <p>Template</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Blood Donation Template"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details6.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -487,27 +510,27 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-7.PNG" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Student Timetable Template</h4>
+                <p>Templates</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-7.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Student Timetable Templatee"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details7.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-8.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Student Timetable Template Dark Them</h4>
+                <p>Template</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-8.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Student Timetable Template Dark Them"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details8.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -516,7 +539,7 @@
         </div>
 
       </div>
-    </section>End Portfolio Section -->
+    </section>
 
     <!-- ======= Services Section ======= 
     <section id="services" class="services">
