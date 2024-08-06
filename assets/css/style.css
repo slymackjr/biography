@@ -1248,6 +1248,7 @@ section {
 }
 .countdown{
   font-size: 1.3em;
+  color: #353636;
   font-weight: 700;
 }
 .countdown span{
@@ -1258,19 +1259,15 @@ section {
 .pleaseWait-text{
   font-size: 1.3em;
   font-weight: 700;
+  color: #353636;
   display: none;
 }
 .manualDownload-text{
   font-size: 1.3em;
   font-weight: 600;
+  color: #353636;
   display: none;
 }
-.manualDownload-link{
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #2e7cfa;
-}
-
 strong{
   color:#fff700;
 }
